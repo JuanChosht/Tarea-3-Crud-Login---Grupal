@@ -22,7 +22,6 @@
 ## 📑 Índice
 
 - [Descripción del proyecto](#-descripción-del-proyecto)
-- [Estado del proyecto](#-estado-del-proyecto)
 - [Funcionalidades](#-funcionalidades)
 - [Demostración](#-demostración)
 - [Acceso al proyecto](#-acceso-al-proyecto)
@@ -30,7 +29,6 @@
 - [Arquitectura MVC](#-arquitectura-mvc)
 - [Rutas](#-rutas)
 - [Tecnologías utilizadas](#-tecnologías-utilizadas)
-- [Próximos pasos](#-próximos-pasos)
 - [Personas desarrolladoras](#-personas-desarrolladoras)
 - [Licencia](#-licencia)
 
@@ -46,15 +44,6 @@ Comprarle a una tienda pequeña o a un vendedor desconocido da desconfianza: ¿y
 
 > ⚠️ Proyecto académico: los pagos son **simulados**. En la vida real, retener dinero de terceros es una actividad
 > regulada que requiere autorización.
-
-## 🚧 Estado del proyecto
-
-<h4 align="center">🚧 En desarrollo: proyecto del semestre de Diseño Web 🚧</h4>
-
-Esta entrega (**Tarea 3**) incluye:
-
-- ✅ **CRUD con el patrón MVC**: gestión de transacciones.
-- ✅ **Login**: usuario y contraseña, con todas las URLs del CRUD protegidas.
 
 ## 🔨 Funcionalidades
 
@@ -78,7 +67,6 @@ Esta entrega (**Tarea 3**) incluye:
 **Estados del dinero:** `Creada → Pagada (retenida) → Enviada → Liberada`, y desde `Enviada → En disputa → Reembolsada / Liberada`, además de `Cancelada`.
 
 ## 🎥 Demostración
-
 
 | Login | Registro |
 |:---:|:---:|
@@ -157,13 +145,6 @@ src/main/resources/
 - **H2 Database**, guardada en archivo
 - **Maven Wrapper**
 
-## 🔭 Próximos pasos
-
-- [ ] Roles: comprador, vendedor y administrador
-- [ ] Pago simulado: el dinero pasa a **retenido**
-- [ ] Envío con número de guía y confirmación de recepción
-- [ ] Disputas: el comprador reclama y el administrador decide si reembolsar o liberar el dinero
-- [ ] **Núcleo:** comisión de la plataforma por tramos y liquidación a cada vendedor según un rango de fechas
 
 ## 👥 Personas desarrolladoras
 
