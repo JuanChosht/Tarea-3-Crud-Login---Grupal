@@ -1,0 +1,52 @@
+:root {
+    --marca: #1d4ed8;
+    --marca-oscuro: #1e3a8a;
+    --marca-noche: #0f172a;
+}
+
+.bg-marca {
+    background: linear-gradient(90deg, var(--marca-noche), var(--marca-oscuro));
+}
+
+.btn-marca {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--marca);
+    --bs-btn-border-color: var(--marca);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--marca-oscuro);
+    --bs-btn-hover-border-color: var(--marca-oscuro);
+    --bs-btn-active-bg: var(--marca-oscuro);
+}
+
+.navbar-brand {
+    letter-spacing: .3px;
+}
+
+.card {
+    border: 0;
+    border-radius: .75rem;
+}
+
+.icono-stat {
+    width: 2.75rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .6rem;
+    font-size: 1.25rem;
+}
+
+.text-truncar {
+    display: block;
+    max-width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.auth-bg {
+    background: radial-gradient(circle at 20% 20%, #1d4ed8 0%, transparent 45%),
+                linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+}
