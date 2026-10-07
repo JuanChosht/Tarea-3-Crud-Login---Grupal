@@ -79,7 +79,6 @@ Esta entrega (**Tarea 3**) incluye:
 
 ## 🎥 Demostración
 
-📹 **Video:** _[agregar aquí el enlace de Loom o YouTube]_
 
 | Login | Registro |
 |:---:|:---:|
